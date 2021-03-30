@@ -1913,7 +1913,7 @@ C<last_activity + timeout>, and subtracting the current time, C<ev_now
 If this value is negative, then we are already past the timeout, i.e. we
 timed out, and need to do whatever is needed in this case.
 
-Otherwise, we now the earliest time at which the timeout would trigger,
+Otherwise, we know the earliest time at which the timeout would trigger,
 and simply start the timer with this timeout value.
 
 In other words, each time the callback is invoked it will check whether
